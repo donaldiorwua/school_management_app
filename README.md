@@ -1,12 +1,57 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# School Management App
 
-Currently, two official plugins are available:
+A modern React-based school management system designed for efficient handling of students, teachers, classes, subjects, attendance, and results. Built with Vite for fast development and Tailwind CSS for easy styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Welcome Page:** Engaging introductory page with navigation (Home, About, Contact Us).
+- **Authentication:** Simple login flow (demo only).
+- **Admin Dashboard:**  
+  - Sidebar navigation for Students, Teachers, Classes, Subjects, Attendance, Results.
+  - Stats cards displaying total students, teachers, and classes.
+  - Management table for students (list, add new).
+  - Placeholders for other management sections (Teachers, Classes, etc.).
+- **Responsive Design:** Optimized for all screen sizes with Tailwind CSS.
+- **Code Quality:** ESLint configured for React and best practices.
+- **Easy Setup:** Fast development server and build scripts via Vite.
+- **Assets:** Custom SVG icons for branding.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Run in development mode:**
+   ```bash
+   npm run dev
+   ```
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## Project Structure
+
+- `src/`: Source code (React components, CSS)
+- `public/`: Static assets (SVG icons)
+- `eslint.config.js`: ESLint configuration for code linting
+- `vite.config.js`: Vite configuration
+- `index.html`: Entry HTML file
+- `package.json`: Project metadata and scripts
+
+## Future Improvements
+
+- Implement robust authentication and role-based access.
+- Add CRUD operations for all entities (students, teachers, classes).
+- Integrate with a backend and database for persistent storage.
+- Enhance UI/UX with additional dashboards and analytics.
+- Expand functionality for attendance tracking and result management.
+- Add tests and CI/CD pipeline.
+
+## Credits
+
+Built by [donaldiorwua](https://github.com/donaldiorwua).
+
